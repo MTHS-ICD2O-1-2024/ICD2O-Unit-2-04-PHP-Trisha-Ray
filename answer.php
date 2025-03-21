@@ -40,7 +40,11 @@
       <div class="mdl-layout__header-row">
         <span class="mdl-layout-title">Area Of Triangle, PHP</span>
       </div>
-  </div>
+    </header>
+    <main class="mdl-layout__content">
+      <div class="right-image">
+        <img src="./images/area_of_trinagle.png" alt="Area of Triangle Image"/>
+      </div>
   <div class="page-content-php">
     <div id="areatriangle">
       <?php
