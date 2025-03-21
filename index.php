@@ -58,7 +58,7 @@
           <br />
           <p>Heigth Length</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="heigth-length">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-length">
             <label class="mdl-textfield__label" for="height-length">Heigth length Here...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
