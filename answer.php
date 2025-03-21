@@ -46,9 +46,9 @@
       <?php
       $baselength = $_GET["base-length"];
       $heightlength = $_GET["height-length"];
-      
+
       // process
-      $area = ($baselength * $heigthlength) /2;
+      $area = ($baselength * $heigthlength) / 2;
       // output
       echo "If a Triangle has a base length of " . $baselength . " cm and a height of = " . $widthOfRectangle . " cm:";
       echo "<br />";
@@ -58,8 +58,10 @@
     </div>
     <div class="page-content-answer">
       <a href="./index.php">Return...</a>
+    </div>
   </div>
   </main>
   </div>
 </body>
+
 </html>
