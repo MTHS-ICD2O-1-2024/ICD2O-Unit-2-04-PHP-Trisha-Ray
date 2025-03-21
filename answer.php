@@ -44,17 +44,16 @@
   <div class="page-content-php">
     <div id="area-triangle">
       <?php
-      $lengthOfRectangle = $_GET["base-length"];
-      $widthOfRectangle = $_GET["height-length"];
+      $baselength = $_GET["base-length"];
+      $heightlength = $_GET["height-length"];
       
       // process
-      $area = $baselength * $heigthlength;
+      $area = ($baselength * $heigthlength) /2;
       // output
       echo "If a Triangle has a base length of " . $baselength . " cm and a height of = " . $widthOfRectangle . " cm:";
       echo "<br />";
       echo "<br />";
       echo "The area of the Triangle is " . $area . " cm².";
-      echo "<br />";
       ?>
     </div>
     <div class="page-content-answer">
