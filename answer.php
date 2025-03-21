@@ -46,7 +46,7 @@
         <img src="./images/area_of_trinagle.png" alt="Area of Triangle Image"/>
       </div>
   <div class="page-content-php">
-    <div id="areatriangle">
+    <div id="user-info">
       <?php
       $baselength = $_GET["base-length"];
       $heightlength = $_GET["height-length"];
@@ -54,7 +54,7 @@
       // process
       $area = ($baselength * $heigthlength) /2;
       // output
-      echo "If a Triangle has a base length of " . $baselength . " cm and a height of " . $heigthlength. " cm:";
+      echo "If a Triangle has a base length of =" . $baselength . " cm and a height of =" . $heightlength . " cm:";
       echo "<br />";
       echo "<br />";
       echo "The area of the Triangle is " . $area . " cm².";
